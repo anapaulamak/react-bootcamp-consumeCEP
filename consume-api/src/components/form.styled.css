@@ -1,0 +1,33 @@
+.InputArea{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.InputArea input {
+  border: solid 1px #8080808c;
+  height: 20px;
+  padding: 0px 10px;
+  margin: 10px;
+  width: 100px;
+}
+.InputArea button{
+  border: none;
+  padding: 10px 20px;
+  width: 120px;
+  background-color: #dadada;
+}
+.CEPInfos{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 40px;
+  margin: 10px 10%;
+}
+.CEPInfos div{
+  width: 100%;
+  border-bottom: solid 1px #b9b7b7;
+  text-align: left;
+  padding: 10px;
+}
